@@ -25,9 +25,8 @@ var codeName = function(spartanName) {
 
 // Boolean Function
 var inventoryAssessment;
-inventoryAssessment = function (ammo, grenades) {
+    inventoryAssessment = function (ammo, grenades) {
     return ammo + grenades <= 0;
-
 };
   
 // Number Function
@@ -40,24 +39,33 @@ var weaponConfiguration = function(loadOut){
 };
 
 
-// Array Function
-var loadOutSelection;
-loadOutSelection = function (ordinanceDelivered, intelUploaded) {
+// Method Function SDI Project 3
+// Array Function SDI Project 2
+var weaponsConfiguration = {
+    ordinanceRequest: [
+        "Rail Gun",
+        "Photon Canon",
+        "Plasma Grenades",
+        "Marksman Rifle",
+        "C87 Rocket Launcher"], // Property Array
+    loadOutSelection: function (ordinanceDelivered, intelUploaded) {
     //noinspection JSDuplicatedDeclaration,JSDuplicatedDeclaration
     for (var i = 0; i < ordinanceDelivered.length; i++) {
         console.log(ordinanceDelivered[i])
-    }
+    } // For Loop
     //noinspection JSDuplicatedDeclaration
     for (var i = 0; i < intelUploaded; i++) {
         console.log(i + " Standby Intel being uploaded..");
-    }
-    return ordinanceDelivered;
+    } // Nested Loop
+    return ordinanceDelivered; // Return Array
+}
 };
 
 // String Function
-var heatSignature  = function(speciesIdentification, speciesIndent) {
-	verify = speciesIdentification + " and " + speciesIndent;
-	return verify;
+var heatSignature;
+    heatSignature = function (speciesIdentification, speciesIndent) {
+    verify = speciesIdentification + " and " + speciesIndent;
+    return verify;
 };
 
 
@@ -69,7 +77,8 @@ console.log("Inventory Assessment complete.. Supplies requested at this time? " 
 console.log("Weapon Configurations requested.. Total of 5 weapon loadout configurations will be delivered");
 var loadOutComplete = weaponConfiguration(5);
 console.log(loadOutComplete + " Countdown Complete..Weapon Configurations being delivered");
-var ordinanceDelivered = loadOutSelection(ordinanceRequest, configurations);
+var ordinanceDelivered;
+ordinanceDelivered = weaponsConfiguration.loadOutSelection(ordinanceRequest, configurations); //Argument Array
 console.log("Intel uploaded of Weapons Inventory listed: " + ordinanceDelivered);
 var verify = heatSignature(alienSpecies, allies);
 console.log(verify + " detected on radar, proceed with caution.");
