@@ -5,7 +5,6 @@
 // Flowchart and Objects
 
 // Global Variables
-//var offensiveLoadOutConfiguration = 5;
 var ordinanceRequest = ["Rail Gun","Photon Canon","Plasma Grenades","Marksman Rifle","C87 Rocket Launcher"];
 var configurations = 5;
 var alienSpecies =  "Promethean Knight";
@@ -23,14 +22,13 @@ codeName = { enterCode:function (spartanName) {
     } else {
         spartanName = spartanName + " Access Denied..Access Denied..Incorrect Codename..Re-enter Codename..";
         console.log(spartanName);
-
-    }
-    //return spartanName;
-    return codeName; //  Return String and Return Object
+        if (spartanName !== "GoldenArm"){console.log("Warning.. Warning.. Re-Enter Code Name.. Terminal LockDown in 5 4 3 2 1")}
+            }
+    return codeName; //  Return Object
 }
 };
 
-//
+// Return Boolean SDI Project 3
 // Boolean Function SDI Project 2
 var inventoryAssessment;
     inventoryAssessment = {reload: function (ammo, grenades) {
@@ -39,7 +37,7 @@ var inventoryAssessment;
 };
 
 
-  
+// Return Number SDI Project 3
 // Number Function
 var weaponConfiguration = function(loadOut){
 	while (loadOut > 0) {
@@ -73,6 +71,7 @@ var weaponsConfiguration = {
     }
 };
 
+//Method Procedure
 // String Function
 var heatSignature;
     heatSignature = { standBy: function (speciesIdentification, speciesIndent) {
@@ -84,8 +83,6 @@ var heatSignature;
 
 // Main Code
 var codeAccess = codeName.enterCode("GoldenArm");
-var codeFunction = codeName;
-    console.log("Code " + codeAccess + " approved.. Acquiring DataLink.." );
     console.log("Current equipment being assessed to determine need for additional supplies");
 var additionalSupplies = inventoryAssessment.reload(0,0);
     console.log("Inventory Assessment complete.. Supplies requested at this time? " + additionalSupplies );
@@ -94,17 +91,16 @@ var loadOutComplete = weaponConfiguration(10);
     console.log(loadOutComplete + " Countdown Complete..Weapon Configurations being delivered");
 var ordinanceDelivered;
 ordinanceDelivered = weaponsConfiguration.loadOutSelection(ordinanceRequest, configurations); //Argument Array
-
-
     console.log("Intel uploaded of Weapons Inventory listed: " + ordinanceDelivered);
 var verify = heatSignature.standBy(alienSpecies, allies);
     console.log(verify + " detected on radar, proceed with caution.");
 
 // Returned Values
     console.log("RETURNED VALUES:");
-    console.log(codeFunction," Return Object");
-    console.log(loadOutComplete + " Return Number");
-    console.log(verify + " Return String");
+    console.log(codeAccess," - Return Object");
+    console.log(loadOutComplete + " - Return Number");
+    console.log(verify + " - Return String");
+    console.log(additionalSupplies+ " - Return Boolean");
 
 
 
