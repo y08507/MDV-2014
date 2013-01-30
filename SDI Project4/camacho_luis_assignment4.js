@@ -1,9 +1,8 @@
 //alert("JavaScript works!");
 // Author: Luis Camacho Jr
 // Created for: SDI 1301
-// Project 4 Stub Functions to Functioning Functions
-// library: 12 Functions to reuse for future assignments
-
+// Project 4
+// Function Library
 
 
 /* Does a string follow a 123-456-7890 pattern like a phone number?
@@ -15,48 +14,59 @@ from the function should be a Boolean; that is, true if the string matches the
 pattern or false if it does not. */
 
 var phoneNumberVerifier = function (patternTest) {
-    /*var end=patternTest.indexOf("-");
-     var start=PatternTest.indexOf("-")+1;
-     var endLast=PatternTest.lastIndexOf("-");
-     var startLast =patternTest.lastIndexOf("-") + 1;*/
+    if (patternTest.length === 12) {
 
-    if (patternTest.length === 12){
+        if (patternTest.indexOf("-") >= 2) {
 
-    }else{
-        return false;}
-            if(patternTest.indexOf("-") >= 2){
+            if (patternTest.substring(0, 3) && patternTest.charAt(3) === "-") {
 
+                if (patternTest.substring(4, 7) && patternTest.charAt(7) === "-") {
 
-        //for (var i = 0; verifiedPattern.length < 0; i++) {
-            if (patternTest.substring(0,3)&&patternTest.charAt(3)==="-") {
+                    if (patternTest.substring(8, 12)) {
 
-
-                if(patternTest.substring(4,7)&&patternTest.charAt(7)==="-"){
-
-                    if(patternTest.substring(8,12)){
-                        return true
                     }else{
                         return false;
-
                     }
-                }
-            }
-
 
                 }else{
                     return false;
-                    }
+                }
 
+            }else{
+                return false;
+            }
 
+        }else{
+            return false;
+        }
 
+        return true;
+    }else{
+        return false;
+    }
 
 };
+
+// Main Code
 var phoneTest1 = phoneNumberVerifier("6-504-12-12");
-var phoneTest2 = phoneNumberVerifier("452-561-7290");
-var phoneTest3 = phoneNumberVerifier("85-561-7289");
+var phoneTest2 = phoneNumberVerifier("63-234-12-12");
+var phoneTest3 = phoneNumberVerifier("805-561-7289");
 var phoneTest4 = phoneNumberVerifier("34-312-7855");
-console.log(phoneTest1); //test result false
-console.log(phoneTest2); //test result true
-console.log(phoneTest3); //test result false
-console.log(phoneTest4); //test result false
+
+// Returned Boolean Values
+console.log(phoneTest1); //test result false length 11
+console.log(phoneTest2); //test result false length 12
+console.log(phoneTest3); //test result true  length 12
+console.log(phoneTest4); //test result false length 11
+
+
+
+
+
+
+
+
+
+
+
 
