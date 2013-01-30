@@ -47,18 +47,55 @@ var phoneNumberVerifier = function (patternTest) {
 
 };
 
+/*Does a string follow an aaa@bbb.ccc pattern like an email address?
+This problem is similar to the ﬁrst except that the submitted string must follow a
+different pattern.  For example, if you passed the string “fsosupport@fullsail", this
+would not match the pattern.  But, if you passed the string “llewis@fullsail.com",
+this would match the pattern.  The only value returned from the function should
+be a Boolean; that is, true if the string matches the pattern or false if it does not*/
+
+var emailValidator = function (patternTest) {
+
+    if (patternTest.indexOf("@")>1 || patternTest.lastIndexOf(".")>1){
+
+        if(patternTest.lastIndexOf(".")+2==patternTest.length){
+
+            if(patternTest.endsWith(".com")+2<patternTest.indexOf("@")){
+
+            }else{
+
+                return true;
+            }
+
+        }else{
+
+            return false;
+        }
+
+        return false;
+
+    }else{
+
+        return true;
+    }
+
+};
+
 // Main Code
 var phoneTest1 = phoneNumberVerifier("6-504-12-12");
 var phoneTest2 = phoneNumberVerifier("63-234-12-12");
 var phoneTest3 = phoneNumberVerifier("805-561-7289");
 var phoneTest4 = phoneNumberVerifier("34-312-7855");
+var emailTest1 = emailValidator("jack@sparrow.com");
+var emailTest2 = emailValidator("jack.sparrow@com");
 
 // Returned Boolean Values
 console.log(phoneTest1); //test result false length 11
 console.log(phoneTest2); //test result false length 12
 console.log(phoneTest3); //test result true  length 12
 console.log(phoneTest4); //test result false length 11
-
+console.log(emailTest1); //test result true
+console.log(emailTest2); //test result false
 
 
 
