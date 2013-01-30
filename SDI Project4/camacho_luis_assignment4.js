@@ -60,7 +60,7 @@ var emailValidator = function (patternTest) {
 
         if(patternTest.lastIndexOf(".")+2==patternTest.length){
 
-            if(patternTest.endsWith(".com")+2<patternTest.indexOf("@")){
+            if(patternTest.lastIndexOf(".com")+2<patternTest.indexOf("@")){
 
             }else{
 
