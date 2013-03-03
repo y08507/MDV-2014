@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff188eb7-c904-416e-b61b-168003facfb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/camacho_luis_project3.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/libraries/sass_stdlib.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/additem.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/css/additem.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/ExistingClient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/NewClient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/untitled folder/ExistingClient1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/untitled folder/ExistingClienttest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/js/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/vfw-project3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/JSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/camacho_luis_assignment3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/camacho_luis_assignment3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/sdi-project3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/sdi.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/camacho_luis_assignment4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/emailValidator function.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/moneyDecimal function.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/numberEvaluation function.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/phoneNumberVerifier function .pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/sdi-project4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/sdi.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/stringSeperator function.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/stringToNumber function.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/titleCaseString function.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/urlVerifier function.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/sdi-project3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/sdi.css" afterPath="" />
     </list>
     <ignored path="MDV-2014.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +132,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -204,99 +245,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/css/additem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="23" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="8" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/additem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/js/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/css/additem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="23" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="8" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="8" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/css/additem.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="23" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/additem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VFW-PROJECTS/camacho_luis_project3/js/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
 
