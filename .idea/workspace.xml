@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff188eb7-c904-416e-b61b-168003facfb5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/camacho_luis_project3.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/libraries/sass_stdlib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/additem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/css/additem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/ExistingClient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/NewClient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/untitled folder/ExistingClient1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/untitled folder/ExistingClienttest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/js/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/vfw-project3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/JSON.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/camacho_luis_assignment3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/camacho_luis_assignment3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/sdi-project3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/sdi.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/camacho_luis_assignment4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/emailValidator function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/moneyDecimal function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/numberEvaluation function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/phoneNumberVerifier function .pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/sdi-project4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/sdi.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/stringSeperator function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/stringToNumber function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/titleCaseString function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/urlVerifier function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/sdi-project3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/sdi.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MDV-2014.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +33,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="258" />
-    <option name="y" value="29" />
+    <option name="x" value="261" />
+    <option name="y" value="31" />
     <option name="width" value="1168" />
     <option name="height" value="822" />
   </component>
@@ -132,8 +91,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -171,7 +130,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="29" width="1168" height="822" extended-state="0" />
+    <frame x="261" y="31" width="1168" height="822" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
