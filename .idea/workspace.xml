@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff188eb7-c904-416e-b61b-168003facfb5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDI/SDI Project 2/camacho_luis_assignment2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDI/SDI Project 2/sdi.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI/camacho_luis_assignment2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI/camacho_luis_assignment3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI/camacho_luis_assignment3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI/sdi.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="ff188eb7-c904-416e-b61b-168003facfb5" name="Default" comment="Creating New Directory of files for MDV">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/additem.html" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/additem.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/css/additem.css" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/css/additem.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/css/styles.css" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/index.html" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/js/json.js" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/js/json.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/js/main.js" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/js/main.js" />
     </list>
     <ignored path="MDV-2014.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +34,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="24" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.56732225">
+            <state line="34" column="72" selection-start="995" selection-end="995" vertical-scroll-proportion="0.38372093">
               <folding />
             </state>
           </provider>
@@ -67,6 +54,9 @@
         <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -107,7 +97,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -128,15 +117,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/VFW" />
-    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -170,22 +160,26 @@
       <created>1362269964129</created>
       <updated>1362269964129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating New Directory of files for MDV">
+      <created>1362416260812</created>
+      <updated>1362416260812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="261" y="31" width="1168" height="822" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24978165" sideWeight="0.6704708" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24978165" sideWeight="0.6704708" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -259,6 +253,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="72" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/additem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="42" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -308,7 +316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="24" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.56732225">
+        <state line="34" column="72" selection-start="995" selection-end="995" vertical-scroll-proportion="0.38372093">
           <folding />
         </state>
       </provider>
