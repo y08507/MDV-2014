@@ -2,49 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff188eb7-c904-416e-b61b-168003facfb5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/camacho_luis_project3.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/libraries/sass_stdlib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/additem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/css/additem.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/ExistingClient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/NewClient.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/untitled folder/ExistingClient1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/img/untitled folder/ExistingClienttest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/js/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MIU/MIU-Projects/vfw-project3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/JSON.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/camacho_luis_assignment3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/camacho_luis_assignment3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/sdi-project3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 3/sdi.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/camacho_luis_assignment4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/emailValidator function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/moneyDecimal function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/numberEvaluation function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/phoneNumberVerifier function .pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/sdi-project4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/sdi.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/stringSeperator function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/stringToNumber function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/titleCaseString function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/SDI Project 4/urlVerifier function.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/camacho_luis_assignment3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/sdi-project3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI-PROJECTS/sdi.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDI/SDI Project 2/camacho_luis_assignment2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SDI/SDI Project 2/sdi.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI/camacho_luis_assignment2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI/camacho_luis_assignment3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI/camacho_luis_assignment3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SDI/sdi.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/additem.html" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/additem.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/css/additem.css" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/css/additem.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/css/styles.css" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/index.html" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/js/json.js" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/js/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MIU/MIU-Project1/js/main.js" afterPath="$PROJECT_DIR$/MIU/MIU-Project1/js/main.js" />
     </list>
     <ignored path="MDV-2014.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +34,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="additem.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/additem.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="24" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.56732225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -72,10 +62,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/MIU/MIU-Project1/js/main.js" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="258" />
-    <option name="y" value="29" />
+    <option name="x" value="261" />
+    <option name="y" value="31" />
     <option name="width" value="1168" />
     <option name="height" value="822" />
   </component>
@@ -132,6 +134,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/VFW" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -171,18 +174,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="29" width="1168" height="822" extended-state="0" />
+    <frame x="261" y="31" width="1168" height="822" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24978165" sideWeight="0.6704708" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24978165" sideWeight="0.6704708" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -245,6 +248,71 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/additem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="42" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/additem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="42" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/additem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="26" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/additem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/additem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="24" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.56732225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

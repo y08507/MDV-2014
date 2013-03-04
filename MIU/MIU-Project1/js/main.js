@@ -7,7 +7,7 @@
  */
 // Author: Luis Camacho Jr.
 // Created for: VFW 1302
-// Project 3
+// Project 4
 
 // wait until the DOM is ready
 window.addEventListener("DOMContentLoaded", function () {
@@ -23,8 +23,8 @@ window.addEventListener("DOMContentLoaded", function () {
     function radioSelection() {
         //noinspection JSUnresolvedVariable
         var clientStatus = document.getElementById("radioCheck").client;
-        for (var i = 0; i < clientStatus.length; i++) {
-            if (clientStatus[i].checked) {
+        for(var i = 0; i < clientStatus.length; i++){
+            if(clientStatus[i].checked){
                 status = clientStatus[i].value;
             }
         }
@@ -32,12 +32,15 @@ window.addEventListener("DOMContentLoaded", function () {
 
     function checkSelection() {
         //noinspection JSUnresolvedVariable
-        var checkedBox = document.getElementById("radioCheck").caseType;
-        for (var i = 0; i < checkedBox.length; i++) {
-            if (checkedBox[i].checked) {
-                selectedBox = checkedBox[i].value;
+        var checkBoxes = document.getElementById("radioCheck").caseType;
+        var checkedBox = [];
+        for(var i = 0; i < checkBoxes.length; i++){
+            if(checkBoxes[i].checked){
+                checkedBox.push(checkBoxes[i].value);
+                selectedBox = checkedBox;
             }
         }
+        console.log(checkedBox);
     }
 
     //noinspection FunctionWithInconsistentReturnsJS
@@ -103,6 +106,7 @@ window.addEventListener("DOMContentLoaded", function () {
         //noinspection JSValidateTypes
         localStorage.setItem(id, JSON.stringify(item));
         alert("Saving Data! Select Display Data Link Above To View Or Edit Data!");
+        console.log(selectedBox);
     }
 
     function getData(){
@@ -219,9 +223,9 @@ window.addEventListener("DOMContentLoaded", function () {
         for(var b = 0; b < checkboxes.length; b++) {
             if(checkboxes[b].value == "Immigration Law" && item.type[1] == "Immigration Law"){
                 checkboxes[b].setAttribute("checked", "checked");
-            }else if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation"){
+            if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation")
                 checkboxes[b].setAttribute("checked", "checked");
-            }else if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting"){
+            if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting")
                 checkboxes[b].setAttribute("checked", "checked");
             }
         }
@@ -370,6 +374,7 @@ window.addEventListener("DOMContentLoaded", function () {
     var status;
     var selectedBox;
     var errorLogs = g('errorLog');
+
 
     //Set Link & Submit Click Events
     var displayLink = g('display');
