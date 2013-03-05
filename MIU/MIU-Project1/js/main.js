@@ -221,14 +221,15 @@ window.addEventListener("DOMContentLoaded", function () {
         }
         var checkboxes = document.forms[0].caseType;
         for(var b = 0; b < checkboxes.length; b++) {
-            if(checkboxes[b].value == "Immigration Law" && item.type[1] == "Immigration Law"){
-                checkboxes[b].setAttribute("checked", "checked");
-                if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation")
-                    checkboxes[b].setAttribute("checked", "checked");
-                if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting")
-                    checkboxes[b].setAttribute("checked", "checked");
+            if(checkboxes[b].value == "Immigration Law" && selectedBox.indexOf("Immigration Law")){
+                checkboxes[b].setAttribute("checked", "checked")
+            }else if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation"){
+                    checkboxes[b].setAttribute("checked", "checked")
+            }else if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting"){
+                    checkboxes[b].setAttribute("checked", "checked")}
+            console.log(item.type[1]);
             }
-        }
+
         g('firstConsult').value = item.date[1];
         g('payment').value = item.payment[1];
         g('clientFeedback').value = item.notes[1];
