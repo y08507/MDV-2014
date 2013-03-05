@@ -80,8 +80,8 @@ window.addEventListener("DOMContentLoaded", function () {
         //key creation only if new item, then generate key.
         if(!key){
             var id = Math.floor(Math.random()*10000002);
-        //retrieve all data form fields value and store in an object.
-        //Object properties contain array with the form label and input value.
+            //retrieve all data form fields value and store in an object.
+            //Object properties contain array with the form label and input value.
         }else{
             //Keep the same key value for editing contact item.
             //Key has been utilized throughout process. Key is from editSubmit event handler.
@@ -91,16 +91,16 @@ window.addEventListener("DOMContentLoaded", function () {
         radioSelection();
         checkSelection();
         var item         = {};
-            item.fname   = ["First Name:", g('firstName').value];
-            item.lname   = ["Last Name:", g('lastName').value];
-            item.ename   = ["E-Mail Address:", g('email').value];
-            item.pnumber = ["Phone Number:", g('phoneNumber').value];
-            item.status  = ["Client Status:", status];
-            item.type    = ["Case Type:", selectedBox];
-            item.date    = ["Consultation Date:", g('firstConsult').value];
-            item.payment = ["Method of Payment:", g('payment').value];
-            item.notes   = ["Client Comments:", g('clientFeedback').value];
-            item.app     = ["Rate App:", g('rating').value];
+        item.fname   = ["First Name:", g('firstName').value];
+        item.lname   = ["Last Name:", g('lastName').value];
+        item.ename   = ["E-Mail Address:", g('email').value];
+        item.pnumber = ["Phone Number:", g('phoneNumber').value];
+        item.status  = ["Client Status:", status];
+        item.type    = ["Case Type:", selectedBox];
+        item.date    = ["Consultation Date:", g('firstConsult').value];
+        item.payment = ["Method of Payment:", g('payment').value];
+        item.notes   = ["Client Comments:", g('clientFeedback').value];
+        item.app     = ["Rate App:", g('rating').value];
         //Save data to Local Storage: Use Stringify to convert our object to a string.
         //localStorage is a Key Value pair.
         //noinspection JSValidateTypes
@@ -114,9 +114,9 @@ window.addEventListener("DOMContentLoaded", function () {
 
         if (localStorage.length === 0) {
             alert("There is no Data in Local Storage. Test Data Being Loaded");
-        //testData function utilizes json.js file to populate the form with Data.
-        //For testing purposes.
-        testData();
+            //testData function utilizes json.js file to populate the form with Data.
+            //For testing purposes.
+            testData();
         }
         //Write Data from local storage to the browser.
         //toggleControls("on");
@@ -223,10 +223,10 @@ window.addEventListener("DOMContentLoaded", function () {
         for(var b = 0; b < checkboxes.length; b++) {
             if(checkboxes[b].value == "Immigration Law" && item.type[1] == "Immigration Law"){
                 checkboxes[b].setAttribute("checked", "checked");
-            if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation")
-                checkboxes[b].setAttribute("checked", "checked");
-            if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting")
-                checkboxes[b].setAttribute("checked", "checked");
+                if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation")
+                    checkboxes[b].setAttribute("checked", "checked");
+                if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting")
+                    checkboxes[b].setAttribute("checked", "checked");
             }
         }
         g('firstConsult').value = item.date[1];
@@ -265,7 +265,7 @@ window.addEventListener("DOMContentLoaded", function () {
             localStorage.clear();
             alert("All Client Data Has Been Deleted!");
             window.location.reload();
-        return false;
+            return false;
         }
     }
 
@@ -378,334 +378,11 @@ window.addEventListener("DOMContentLoaded", function () {
 
     //Set Link & Submit Click Events
     var displayLink = g('display');
-        displayLink.addEventListener("click", getData);
+    displayLink.addEventListener("click", getData);
     var clearLink = g('clearStored');
-        clearLink.addEventListener("click", clearLocal);
+    clearLink.addEventListener("click", clearLocal);
     var save = g('buttonProcess');
-        save.addEventListener("click", validator);
+    save.addEventListener("click", validator);
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
