@@ -1,15 +1,17 @@
 /**
  * Created with JetBrains WebStorm.
  * User: Project31312
- * Date: 2/15/13
- * Time: 2:07 PM
+ * Date: 3/7/13
+ * Time: 3:53 PM
  * To change this template use File | Settings | File Templates.
  */
-// Author: Luis Camacho Jr.
-// Created for: VFW 1302
-// Project 3
-
-// wait until the DOM is ready
+/*
+ Author: Luis Camacho Jr.
+ Full Sail University
+ Course: MIU
+ Term: 1302
+ Project 1: Feature, Search & Browse
+ */
 window.addEventListener("DOMContentLoaded", function () {
 
     //getElement by ID Function
@@ -23,8 +25,8 @@ window.addEventListener("DOMContentLoaded", function () {
     function radioSelection() {
         //noinspection JSUnresolvedVariable
         var clientStatus = document.getElementById("radioCheck").client;
-        for (var i = 0; i < clientStatus.length; i++) {
-            if (clientStatus[i].checked) {
+        for(var i = 0; i < clientStatus.length; i++){
+            if(clientStatus[i].checked){
                 status = clientStatus[i].value;
             }
         }
@@ -32,12 +34,15 @@ window.addEventListener("DOMContentLoaded", function () {
 
     function checkSelection() {
         //noinspection JSUnresolvedVariable
-        var checkedBox = document.getElementById("radioCheck").caseType;
-        for (var i = 0; i < checkedBox.length; i++) {
-            if (checkedBox[i].checked) {
-                selectedBox = checkedBox[i].value;
+        var checkBoxes = document.getElementById("radioCheck").caseType;
+        var checkedBox = [];
+        for(var i = 0; i < checkBoxes.length; i++){
+            if(checkBoxes[i].checked){
+                checkedBox.push(checkBoxes[i].value);
+                selectedBox = checkedBox;
             }
         }
+        console.log(checkedBox);
     }
 
     //noinspection FunctionWithInconsistentReturnsJS
@@ -77,8 +82,8 @@ window.addEventListener("DOMContentLoaded", function () {
         //key creation only if new item, then generate key.
         if(!key){
             var id = Math.floor(Math.random()*10000002);
-        //retrieve all data form fields value and store in an object.
-        //Object properties contain array with the form label and input value.
+            //retrieve all data form fields value and store in an object.
+            //Object properties contain array with the form label and input value.
         }else{
             //Keep the same key value for editing contact item.
             //Key has been utilized throughout process. Key is from editSubmit event handler.
@@ -88,21 +93,22 @@ window.addEventListener("DOMContentLoaded", function () {
         radioSelection();
         checkSelection();
         var item         = {};
-            item.fname   = ["First Name:", g('firstName').value];
-            item.lname   = ["Last Name:", g('lastName').value];
-            item.ename   = ["E-Mail Address:", g('email').value];
-            item.pnumber = ["Phone Number:", g('phoneNumber').value];
-            item.status  = ["Client Status:", status];
-            item.type    = ["Case Type:", selectedBox];
-            item.date    = ["Consultation Date:", g('firstConsult').value];
-            item.payment = ["Method of Payment:", g('payment').value];
-            item.notes   = ["Client Comments:", g('clientFeedback').value];
-            item.app     = ["Rate App:", g('rating').value];
+        item.fname   = ["First Name:", g('firstName').value];
+        item.lname   = ["Last Name:", g('lastName').value];
+        item.ename   = ["E-Mail Address:", g('email').value];
+        item.pnumber = ["Phone Number:", g('phoneNumber').value];
+        item.status  = ["Client Status:", status];
+        item.type    = ["Case Type:", selectedBox];
+        item.date    = ["Consultation Date:", g('firstConsult').value];
+        item.payment = ["Method of Payment:", g('payment').value];
+        item.notes   = ["Client Comments:", g('clientFeedback').value];
+        item.app     = ["Rate App:", g('rating').value];
         //Save data to Local Storage: Use Stringify to convert our object to a string.
         //localStorage is a Key Value pair.
         //noinspection JSValidateTypes
         localStorage.setItem(id, JSON.stringify(item));
         alert("Saving Data! Select Display Data Link Above To View Or Edit Data!");
+        console.log(selectedBox);
     }
 
     function getData(){
@@ -110,9 +116,9 @@ window.addEventListener("DOMContentLoaded", function () {
 
         if (localStorage.length === 0) {
             alert("There is no Data in Local Storage. Test Data Being Loaded");
-        //testData function utilizes json.js file to populate the form with Data.
-        //For testing purposes.
-        testData();
+            //testData function utilizes json.js file to populate the form with Data.
+            //For testing purposes.
+            testData();
         }
         //Write Data from local storage to the browser.
         //toggleControls("on");
@@ -219,10 +225,10 @@ window.addEventListener("DOMContentLoaded", function () {
         for(var b = 0; b < checkboxes.length; b++) {
             if(checkboxes[b].value == "Immigration Law" && item.type[1] == "Immigration Law"){
                 checkboxes[b].setAttribute("checked", "checked");
-            }else if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation"){
-                checkboxes[b].setAttribute("checked", "checked");
-            }else if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting"){
-                checkboxes[b].setAttribute("checked", "checked");
+                if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation")
+                    checkboxes[b].setAttribute("checked", "checked");
+                if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting")
+                    checkboxes[b].setAttribute("checked", "checked");
             }
         }
         g('firstConsult').value = item.date[1];
@@ -261,7 +267,7 @@ window.addEventListener("DOMContentLoaded", function () {
             localStorage.clear();
             alert("All Client Data Has Been Deleted!");
             window.location.reload();
-        return false;
+            return false;
         }
     }
 
@@ -371,336 +377,14 @@ window.addEventListener("DOMContentLoaded", function () {
     var selectedBox;
     var errorLogs = g('errorLog');
 
+
     //Set Link & Submit Click Events
     var displayLink = g('display');
-        displayLink.addEventListener("click", getData);
+    displayLink.addEventListener("click", getData);
     var clearLink = g('clearStored');
-        clearLink.addEventListener("click", clearLocal);
+    clearLink.addEventListener("click", clearLocal);
     var save = g('buttonProcess');
-        save.addEventListener("click", validator);
+    save.addEventListener("click", validator);
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
