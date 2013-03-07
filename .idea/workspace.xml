@@ -165,6 +165,10 @@
               <option name="myItemId" value="MIU" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MIU-Project1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -204,23 +208,6 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ff188eb7-c904-416e-b61b-168003facfb5" name="Default" comment="" />
@@ -343,6 +330,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="361" selection-end="410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="384" column="52" selection-start="15836" selection-end="15836" vertical-scroll-proportion="0.0">
@@ -374,6 +371,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/css/styles.css">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="21" selection-start="361" selection-end="410" vertical-scroll-proportion="0.0">
           <folding />
@@ -397,12 +395,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/js/json.js">
+=======
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="17" selection-start="5472" selection-end="5472" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -411,6 +412,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/css/styles.css">
+=======
+    <entry file="file://$PROJECT_DIR$/MIU/MIU-Project1/additem.html">
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="21" selection-start="361" selection-end="410" vertical-scroll-proportion="0.022189349">
           <folding />
