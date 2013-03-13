@@ -221,7 +221,7 @@ window.addEventListener("DOMContentLoaded", function () {
                 radioOption[a].setAttribute("checked", "checked");
             }
         }
-        var checkboxes = document.forms[0].caseType;
+      /*  var checkboxes = document.forms[0].caseType;
         for(var b = 0; b < checkboxes.length; b++) {
             if(checkboxes[b].value == "Immigration Law" && item.type[1] == "Immigration Law"){
                 checkboxes[b].setAttribute("checked", "checked");
@@ -229,6 +229,18 @@ window.addEventListener("DOMContentLoaded", function () {
                     checkboxes[b].setAttribute("checked", "checked");
                 if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting")
                     checkboxes[b].setAttribute("checked", "checked");
+            }
+            //console.log(checkboxes.length);
+        }*/
+
+        var checkboxes = document.forms[0].caseType;
+        for(var b = 0; b < checkboxes.length; b++) {
+            if(checkboxes[b].value == "Immigration Law" && item.type[1] == "Immigration Law"){
+                checkboxes[b].setAttribute("checked", "checked");
+            }else if(checkboxes[b].value == "Business Formation" && item.type[1] == "Business Formation"){
+                checkboxes[b].setAttribute("checked", "checked");
+            }else if(checkboxes[b].value == "Document Drafting" && item.type[1] == "Document Drafting"){
+                checkboxes[b].setAttribute("checked", "checked");
             }
         }
         g('firstConsult').value = item.date[1];
