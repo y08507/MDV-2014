@@ -11,6 +11,7 @@
 *Course: MIU
 *Term: 1303
 *Project 2: Feature, Search & Browse
+*Implementation of jQuery Mobile
 */
 
 var json = {

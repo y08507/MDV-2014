@@ -10,8 +10,9 @@
  Full Sail University
  Course: MIU
  Term: 1302
- Project 1: Feature, Search & Browse
- */
+ Project 2: Feature, Search & Browse
+ Implementation of jQuery Mobile
+*/
 window.addEventListener("DOMContentLoaded", function () {
 
     //getElement by ID Function
