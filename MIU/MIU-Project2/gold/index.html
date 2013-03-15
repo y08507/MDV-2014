@@ -2,7 +2,7 @@
      Full Sail University
      Course: MIU
      Term: 1302
-     Project 2: Feature, Search & Browse
+     Project 2 Gold: Feature, Search & Browse
      Implementation of jQuery Mobile-->
 
 <!DOCTYPE html>
@@ -36,7 +36,7 @@
     </form-->
         <ul data-role="listview" data-theme="d" data-inset="true" data-filter="true">
             <li data-role="list-divider" data-theme="a">Browse By..</li>
-            <li><a href="#fNamePage" data-transition="pop" data-rel="dialog">First Name</a></li>
+            <li><a href="#fNamePage" data-transition="pop">First Name</a></li>
             <li><a href="#lNamePage" data-transition="pop" data-rel="dialog">Last Name</a></li>
             <li><a href="#emailPage" data-transition="pop" data-rel="dialog">E-Mail Address</a></li>
             <li><a href="#phonePage" data-transition="pop" data-rel="dialog">Phone Number</a></li>
@@ -55,12 +55,70 @@
         </div>
     </div>
 </div>
+<div id="clientData" data-role="page">
+    <header data-role="header" data-theme="b">
+        <div class="cta-container">
+            <a href="addItem.html" data-transition="pop" data-ajax="false">
+                <img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0"  width="180" height="160"/>
+            </a>
+            <a href="#fNamePage" data-role="button" data-theme="a" data-icon="arrow-l" data-iconpos="left" data-inline="true">back</a>
+        </div>
+    </header>
+    <div data-role="content">
+        <h4 style="font-weight:bold">Client Data:</h4>
+        <p>Name: Clyde Parker </p>
+        <p>E-mail: <a href="#">Clyde@ParkerInc.com</a></p>
+        <p>Phone Number: <a href="#">243-123-4545</a></p>
+        <p>Client Status: New Client</p>
+        <p>Case Type: Business Formation</p>
+        <p>Consultation Date: 2013-03-15</p>
+        <p>Method of Payment: TravelersCheck</p>
+        <p>Client Comments: Trademark and Partnership questions.</p>
+    </div>
+    <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#pageOne" data-transition="pop" data-icon="home">Home</a></li>
+                <li><a href="#infoPage" data-transition="pop" data-icon="info">Info</a></li>
+                <li><a href="#newsStreamPage" data-transition="pop" data-icon="info">News Stream</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 <div id="fNamePage" data-role="page">
+    <header data-role="header" data-theme="b">
+        <div class="cta-container">
+            <a href="addItem.html" data-transition="pop" data-ajax="false">
+                <img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0"  width="180" height="160"/>
+            </a>
+        </div>
+    <div data-role="content">
+        <ul data-role="listview" data-theme="d" data-inset="true" data-filter="false">
+            <li data-role="list-divider" data-theme="a">Select Client To View Data..</li>
+            <li><a href="#clientData" data-transition="pop">Clyde</a></li>
+            <li><a href="#fNamePage1" data-transition="pop" data-rel="dialog">John</a></li>
+            <li><a href="#fNamePage1" data-transition="pop" data-rel="dialog">Charles</a></li>
+            <li><a href="#fNamePage1" data-transition="pop" data-rel="dialog">Jean</a></li>
+            <li><a href="#fNamePage1" data-transition="pop" data-rel="dialog">Clarence</a></li>
+            <li><a href="#fNamePage1" data-transition="pop" data-rel="dialog">Donald</a></li>
+        </ul>
+    </div>
+    </header>
+    <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="#pageOne" data-transition="pop" data-icon="home">Home</a></li>
+                <li><a href="#infoPage" data-transition="pop" data-icon="info">Info</a></li>
+                <li><a href="#newsStreamPage" data-transition="pop" data-icon="info">News Stream</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="fNamePage1" data-role="page">
     <header data-role="header">
         <h1>MIU Term:1303</h1>
     </header>
     <div data-role="content">
-        <p>Clyde</p>
         <p>John</p>
         <p>Charles</p>
         <p>Jean</p>
@@ -176,12 +234,9 @@
             </div>
             <div data-role="collapsible">
                 <h4>GitHub Repository & gh-pages</h4>
-                <p>I'm the content in section 3.</p>
-                <ul data-role="listview" data-theme="b">
-                    <li><a href="https://github.com/y08507/MDV-2014.git">GitHub Repo</a></li>
-                    <li><a href="http://y08507.github.com/MDV-2014/MIU/MIU-Project2/gold/index.html">Gold gh-pages</a></li>
-                    <li><a href="http://y08507.github.com/MDV-2014/MIU/MIU-Project2/bronze/index.html">Bronze gh-pages</a></li>
-                </ul>
+                <p><a href="https://github.com/y08507/MDV-2014.git">GitHub Repo</a></p>
+                <p><a href="http://y08507.github.com/MDV-2014/MIU/MIU-Project2/gold/index.html">Gold gh-pages</a></p>
+                <p><a href="http://y08507.github.com/MDV-2014/MIU/MIU-Project2/bronze/index.html">Bronze gh-pages</a></p>
             </div>
         </div>
     </div>
