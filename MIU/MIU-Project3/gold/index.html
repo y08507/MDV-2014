@@ -6,6 +6,7 @@
      Implementation of jQuery Mobile-->
 
 
+
 <!DOCTYPE html>
 <html>
 
@@ -17,7 +18,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
@@ -29,13 +30,6 @@
             </a>
         </div>
         <div data-role="content">
-            <!--Enhancing to Dynamic Search will use lines 31 - 36-->
-            <!--form method="get" action="">
-<fieldset data-role="fieldcontain" class="ui-hide-label">
-<label for="search">Search Field:</label>
-<input type="search" name="search" id="search" value="" placeholder="Search Database.."/>
-</fieldset>
-</form-->
             <ul data-role="listview" data-theme="d" data-inset="true" data-filter="true">
                 <li data-role="list-divider" data-theme="a">Browse By..</li>
                 <li>
@@ -100,9 +94,7 @@
         <p>Method of Payment: TravelersCheck</p>
         <p>Client Comments: Trademark and Partnership questions.</p>
     </div>
-    <div data-role="footer">
-
-    </div>
+    <div data-role="footer"></div>
 </div>
 <div id="fNamePage" data-role="page">
     <header data-role="header" data-theme="b">
@@ -459,60 +451,11 @@
     </div>
     <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
 </div>
-<!--Converting Dialogs to pages in next phase of design-->
-<!--div id="newsStreamPageData" data-role="page">
-<header data-role="header" data-theme="b">
-<div class="cta-container">
-<a href="#addItem" data-transition="pop" data-ajax="false">
-<img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0"  width="180" height="160"/>
-</a>
-</div>
-</header>
-<div data-role="content">
-<p></p>
-<div data-role="collapsible-set">
-<div data-role="collapsible" data-collapsed="false">
-<h4>About the Design & Development Team</h4>
-<p>I'm the content in section 1.</p>
-</div>
-<div data-role="collapsible">
-<h4>Credits</h4>
-<p>I'm the content in section 1.</p>
-</div>
-<div data-role="collapsible">
-<h4>Bronze App Details</h4>
-<p>I'm the content in section 1.</p>
-<ul data-role="listview">
-    <li><a href="#">Bronze App</a></li>
-</ul>
-</div>
-<div data-role="collapsible">
-<h4>GitHub Repository & gh-pages</h4>
-<p>I'm the content in section 3.</p>
-<ul data-role="listview">
-    <li><a href="#">GitHub Repo</a></li>
-    <li><a href="#">Gold gh-pages</a></li>
-    <li><a href="#">Bronze gh-pages</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div data-role="footer">
-<div data-role="navbar" data-iconpos="bottom">
-<ul>
-<li><a href="#pageOne" data-transition="pop" data-icon="home">Home</a></li>
-<li><a href="#infoPage" data-transition="pop" data-icon="info" class="ui-btn-active ui-state-persist">Info</a></li>
-<li><a href="#newsStreamPage" data-transition="pop" data-icon="info">News Stream</a></li>
-</ul>
-</div>
-</div>
-</div-->
 <div data-role="page" id="addItem">
     <header data-role="header" data-theme="b">
         <div class="cta-container">
             <a href="#addItem" data-transition="pop" data-ajax="false"></a>
-                <img style="margin:10px auto;display:block" src="img/logo2.png" alt="Alt Text" title="Client Manager v2.0" width="180" height="160" />
-
+            <img style="margin:10px auto;display:block" src="img/logo2.png" alt="Alt Text" title="Client Manager v2.0" width="180" height="160" />
             <a href="#pageOne" data-role="button" data-theme="a" data-icon="arrow-l" data-iconpos="left" data-inline="true">Home</a>
         </div>
         <div data-role="content">
@@ -529,7 +472,7 @@
                         <div style="color:grey;font-size:0.7em;text-align:left">Your E-mail address will not be sold, shared or exchanged with any 3rd parties.</div>
                         <label for="phoneNumber">* Tel:</label>
                         <input type="tel" data-mini="true" data-clear-btn="true" name="clientName" id="phoneNumber" class="required phoneUS" value="" placeholder="Example: xxx-xxx-xxxx">
-                        <div style="color:grey;font-size:0.7em;text-align:left">Tel# does not require parentheses or dashes.</div>
+                        <div style="color:grey;font-size:0.7em;text-align:left">Tel# does not require parentheses.</div>
                     </li>
                     <li>
                         <fieldset data-role="controlgroup" data-theme="e" data-type="horizontal" data-mini="true">
@@ -558,11 +501,11 @@
                     <li>
                         <label for="payment" class="select">Select Method of Payment:</label>
                         <select name="payCheck" id="payment" data-native-menu="false" data-theme="d" data-mini="true" class="">
-                                <option>Payment Options:</option>
-                                <option value="Cash">Cash</option>
-                                <option value="Visa">Visa</option>
-                                <option value="AmericanExpress">American Express</option>
-                                <option value="TravelersCheck">Travelers Check</option>
+                            <option>Payment Options:</option>
+                            <option value="Cash">Cash</option>
+                            <option value="Visa">Visa</option>
+                            <option value="AmericanExpress">American Express</option>
+                            <option value="TravelersCheck">Travelers Check</option>
                         </select>
                     </li>
                     <li>
@@ -574,37 +517,32 @@
                 </ul>
                 <input type="submit" id="" value="Submit Client Form" data-shadow="true" data-mini="false" data-theme="e">
                 <br>
-                <div style="text-align: right"><a href="#errorDialog" style="color: darkgrey">Reset Client Form</a></div>
+                <div style="text-align: right">
+                    <a href="#errorDialog" style="color: darkgrey">Reset Client Form</a>
+                </div>
                 <a href="#errorDialog" id="clientManagerErrors" data-transition="pop" data-rel="dialog">Display Errors</a>
-
             </form>
         </div>
     </header>
 </div>
+<div id="errorDialog" data-role="dialog">
+    <div data-role="header">
+        <h1>Test Page.</h1>
 
-
-    <div id="errorDialog" data-role="dialog">
-        <div data-role="header">
-            <h1>Test Page.</h1>
-        </div>
-        <div data-role="content">
-            <ul>
-
-            </ul>
-            <p>
-                <a href="#addItem" data-transition="pop">Return To Form.
-                    <input type="reset">
-                </a>
-            </p>
-        </div>
-        <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
     </div>
-
-    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
-    <script type="text/javascript" src="js/libs/jquery.validate.js"></script>
-    <script type="text/javascript" src="js/libs/additional-methods.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <div data-role="content">
+        <ul></ul>
+        <p>
+            <a href="#addItem" data-transition="pop">Return To Form.</a>
+        </p>
+    </div>
+    <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script type="text/javascript" src="js/libs/jquery.validate.js"></script>
+<script type="text/javascript" src="js/libs/additional-methods.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
-</html>
 
+</html>
