@@ -1,0 +1,610 @@
+<!-- Author: Luis Camacho Jr.
+     Full Sail University
+     Course: MIU
+     Term: 1302
+     Project 3 Gold: Feature, Search & Browse Form Validation and Save to Local Storage
+     Implementation of jQuery Mobile-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Client Manager v2.0</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Client Manager App is a management system which tracks and streamlines updates about the client" />
+    <meta name="keywords" content="Attorney, Case log, Clients" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+
+<body>
+<div id="pageOne" data-role="page">
+    <header data-role="header" data-theme="b">
+        <div class="cta-container">
+            <a href="#addItem" data-transition="pop" data-ajax="false">
+                <img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0" width="180" height="160" />
+            </a>
+        </div>
+        <div data-role="content">
+            <!--Enhancing to Dynamic Search will use lines 31 - 36-->
+            <!--form method="get" action="">
+<fieldset data-role="fieldcontain" class="ui-hide-label">
+<label for="search">Search Field:</label>
+<input type="search" name="search" id="search" value="" placeholder="Search Database.."/>
+</fieldset>
+</form-->
+            <ul data-role="listview" data-theme="d" data-inset="true" data-filter="true">
+                <li data-role="list-divider" data-theme="a">Browse By..</li>
+                <li>
+                    <a href="#fNamePage" data-transition="pop">First Name</a>
+                </li>
+                <li>
+                    <a href="#lNamePage" data-transition="pop" data-rel="dialog">Last Name</a>
+                </li>
+                <li>
+                    <a href="#emailPage" data-transition="pop" data-rel="dialog">E-Mail Address</a>
+                </li>
+                <li>
+                    <a href="#phonePage" data-transition="pop" data-rel="dialog">Phone Number</a>
+                </li>
+                <li>
+                    <a href="#clientPage" data-transition="pop" data-rel="dialog">Client Status</a>
+                </li>
+                <li>
+                    <a href="#casePage" data-transition="pop" data-rel="dialog">Case Type</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li>
+                    <a href="#pageOne" data-transition="pop" data-icon="home" class="ui-btn-active ui-state-persist">Home</a>
+                </li>
+                <li>
+                    <a href="#infoPage" data-transition="pop" data-icon="info">Info</a>
+                </li>
+                <li>
+                    <a href="#newsStreamPage" data-transition="pop" data-icon="info">News Stream</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="clientData" data-role="page">
+    <header data-role="header" data-theme="b">
+        <div class="cta-container">
+            <a href="#addItem" data-transition="pop" data-ajax="false">
+                <img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0" width="180" height="160" />
+            </a>
+            <a href="#fNamePage" data-role="button" data-theme="a" data-icon="arrow-l" data-iconpos="left" data-inline="true">back</a>
+        </div>
+    </header>
+    <div data-role="content">
+        <h4 style="font-weight:bold">Client Data:</h4>
+
+        <p>Name: Clyde Parker</p>
+        <p>E-mail:
+            <a href="#">Clyde@ParkerInc.com</a>
+        </p>
+        <p>Phone Number:
+            <a href="#">243-123-4545</a>
+        </p>
+        <p>Client Status: New Client</p>
+        <p>Case Type: Business Formation</p>
+        <p>Consultation Date: 2013-03-15</p>
+        <p>Method of Payment: TravelersCheck</p>
+        <p>Client Comments: Trademark and Partnership questions.</p>
+    </div>
+    <div data-role="footer">
+
+    </div>
+</div>
+<div id="fNamePage" data-role="page">
+    <header data-role="header" data-theme="b">
+        <div class="cta-container">
+            <a href="#addItem" data-transition="pop" data-ajax="false">
+                <img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0" width="180" height="160" />
+            </a>
+            <a href="#pageOne" data-role="button" data-theme="a" data-icon="arrow-l" data-iconpos="left" data-inline="true">Back</a>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" data-theme="d" data-inset="true" data-filter="false">
+                <li data-role="list-divider" data-theme="a">Select Client To View Data..</li>
+                <li>
+                    <a href="#clientData" data-transition="pop">Clyde</a>
+                </li>
+                <li>
+                    <a href="#fNamePage1" data-transition="pop" data-rel="dialog">John</a>
+                </li>
+                <li>
+                    <a href="#fNamePage1" data-transition="pop" data-rel="dialog">Charles</a>
+                </li>
+                <li>
+                    <a href="#fNamePage1" data-transition="pop" data-rel="dialog">Jean</a>
+                </li>
+                <li>
+                    <a href="#fNamePage1" data-transition="pop" data-rel="dialog">Clarence</a>
+                </li>
+                <li>
+                    <a href="#fNamePage1" data-transition="pop" data-rel="dialog">Donald</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li>
+                    <a href="#pageOne" data-transition="pop" data-icon="home">Home</a>
+                </li>
+                <li>
+                    <a href="#infoPage" data-transition="pop" data-icon="info">Info</a>
+                </li>
+                <li>
+                    <a href="#newsStreamPage" data-transition="pop" data-icon="info">News Stream</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="fNamePage1" data-role="page">
+    <header data-role="header">
+        <h1>MIU Term:1303</h1>
+
+    </header>
+    <div data-role="content">
+        <p>John</p>
+        <p>Charles</p>
+        <p>Jean</p>
+        <p>Clarence</p>
+        <p>Donald</p>
+        <p>
+            <a href="#pageOne" data-transition="pop">Return To Browse.</a>
+        </p>
+    </div>
+    <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<div id="lNamePage" data-role="page">
+    <header data-role="header">
+        <h1>MIU Term:1303</h1>
+
+    </header>
+    <div data-role="content">
+        <p>Parker</p>
+        <p>Smith</p>
+        <p>Wilson</p>
+        <p>Luke</p>
+        <p>Rumsey</p>
+        <p>Blanc</p>
+        <p>
+            <a href="#pageOne" data-transition="pop">Return To Browse.</a>
+        </p>
+    </div>
+    <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<div id="emailPage" data-role="page">
+    <header data-role="header">
+        <h1>MIU Term:1303</h1>
+
+    </header>
+    <div data-role="content">
+        <p>Clyde@ParkerInc.com</p>
+        <p>Smith@Smith.com</p>
+        <p>cw12@mail.com</p>
+        <p>jluke@lmail.com</p>
+        <p>clarRum@mine.com</p>
+        <p>Don@hmail.com</p>
+        <p>
+            <a href="#pageOne" data-transition="pop">Return To Browse.</a>
+        </p>
+    </div>
+    <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<div id="phonePage" data-role="page">
+    <header data-role="header">
+        <h1>MIU Term:1303</h1>
+
+    </header>
+    <div data-role="content">
+        <p>243-123-4545</p>
+        <p>747-488-1212</p>
+        <p>247-488-1213</p>
+        <p>447-458-6212</p>
+        <p>947-088-2214</p>
+        <p>703-222-3202</p>
+        <p>
+            <a href="#pageOne" data-transition="pop">Return To Browse.</a>
+        </p>
+    </div>
+    <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<div id="clientPage" data-role="page">
+    <header data-role="header">
+        <h1>MIU Term:1303</h1>
+
+    </header>
+    <div data-role="content">
+        <p>NewClient</p>
+        <p>ExistingClient</p>
+        <p>ExistingClient</p>
+        <p>NewClient</p>
+        <p>ExistingClient</p>
+        <p>NewClient</p>
+        <p>
+            <a href="#pageOne" data-transition="pop">Return To Browse.</a>
+        </p>
+    </div>
+    <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<div id="casePage" data-role="page">
+    <header data-role="header">
+        <h1>MIU Term:1303</h1>
+
+    </header>
+    <div data-role="content">
+        <p>Business Formation</p>
+        <p>Immigration Law</p>
+        <p>Document Drafting</p>
+        <p>Immigration Law</p>
+        <p>Immigration Law</p>
+        <p>Business Formation</p>
+        <p>
+            <a href="#pageOne" data-transition="pop">Return To Browse.</a>
+        </p>
+    </div>
+    <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<div id="infoPage" data-role="page">
+    <header data-role="header" data-theme="b">
+        <div class="cta-container">
+            <a href="#addItem" data-transition="pop" data-ajax="false">
+                <img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0" width="180" height="160" />
+            </a>
+        </div>
+    </header>
+    <div data-role="content">
+        <p></p>
+        <div data-role="collapsible-set">
+            <div data-role="collapsible" data-collapsed="false">
+                <h4>About the Design & Development Team</h4>
+
+                <p>In charge of all design and development projects is our CEO, Luis Camacho Jr. We are a company here to serve you with your design in mind.</p>
+            </div>
+            <div data-role="collapsible">
+                <h4>Credits</h4>
+
+                <p>Full Sail University Faculty, Staff, and Curriculum</p>
+                <p>Tidwell, J. (2011). Designing interfaces. Sebastopol,CA: O'Reilly Media, Inc.</p>
+                <p>
+                    <a href="http://view.jquerymobile.com/1.3.0/">jQuery Mobile Demo Center for 1.3.0</a>
+                </p>
+                <p>
+                    <a href="http://www.lynda.com">Lynda.com</a>
+                </p>
+            </div>
+            <div data-role="collapsible">
+                <h4>Bronze App Details</h4>
+
+                <p></p>
+                <ul data-role="listview" data-theme="b">
+                    <li>
+                        <a href="http://y08507.github.com/MDV-2014/MIU/MIU-Project2/bronze/index.html" data-ajax="false">Bronze App</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="collapsible">
+                <h4>GitHub Repository & gh-pages</h4>
+
+                <p>
+                    <a href="https://github.com/y08507/MDV-2014.git">GitHub Repo</a>
+                </p>
+                <p>
+                    <a href="http://y08507.github.com/MDV-2014/MIU/MIU-Project2/gold/index.html" data-ajax="false">Gold gh-pages</a>
+                </p>
+                <p>
+                    <a href="http://y08507.github.com/MDV-2014/MIU/MIU-Project2/bronze/index.html" data-ajax="false">Bronze gh-pages</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li>
+                    <a href="#pageOne" data-transition="pop" data-icon="home">Home</a>
+                </li>
+                <li>
+                    <a href="#infoPage" data-transition="pop" data-icon="info" class="ui-btn-active ui-state-persist">Info</a>
+                </li>
+                <li>
+                    <a href="#newsStreamPage" data-transition="pop" data-icon="info">News Stream</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="newsStreamPage" data-role="page">
+    <header data-role="header" data-theme="b">
+        <div class="cta-container">
+            <a href="#addItem" data-transition="pop" data-ajax="false">
+                <img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0" width="180" height="160" />
+            </a>
+        </div>
+    </header>
+    <div data-role="content">
+        <p style="font-weight:bold">Upcoming Client Consultations:</p>
+        <ul data-role="listview" data-inset="true">
+            <li data-role="divider" data-theme="b">Monday, March 25</li>
+            <li>
+                <a href="#newsStreamData" data-transition="pop" data-rel="dialog">
+                    <img src="img/NewClient.png">
+                    <h4>Clyde Parker</h4>
+
+                    <p style="font-weight:bold">Business Formation</p>
+                    <p class="ui-li-aside">12pm</p>
+                    <p>Trademark and Partnership questions.</p>
+                </a>
+            </li>
+            <li>
+                <a href="#newsNextPage">
+                    <img src="img/ExistingClient.png">
+                    <h4>John Smith</h4>
+
+                    <p style="font-weight:bold">Immigration Law</p>
+                    <p class="ui-li-aside">2pm</p>
+                    <p>Rush Service</p>
+                </a>
+            </li>
+            <li data-role="divider" data-theme="b">Tuesday, April 23</li>
+            <li>
+                <a href="#newsNextPage">
+                    <img src="img/ExistingClient.png">
+                    <h4>Charles Wilson</h4>
+
+                    <p style="font-weight:bold">Document Drafting</p>
+                    <p class="ui-li-aside">3pm</p>
+                    <p>Confirm with Client</p>
+                </a>
+            </li>
+            <li>
+                <a href="#newsNextPage">
+                    <img src="img/NewClient.png">
+                    <h4>Jean Luke</h4>
+
+                    <p style="font-weight:bold">Immigration Law</p>
+                    <p class="ui-li-aside">5pm</p>
+                    <p>Discuss H-1B Visa for Specialty Occupation Professionals</p>
+                </a>
+            </li>
+            <li>
+                <a href="#newsNextPage">
+                    <img src="img/ExistingClient.png">
+                    <h4>Clarence Rumsey</h4>
+
+                    <p style="font-weight:bold">Immigration Law</p>
+                    <p class="ui-li-aside">6pm</p>
+                    <p>O-1/P Visa for Artists</p>
+                </a>
+            </li>
+            <li data-role="divider" data-theme="b">Friday, April 26</li>
+            <li>
+                <a href="#newsNextPage" data-transition="pop" data-rel="dialog">
+                    <img src="img/NewClient.png">
+                    <h4>Donald Blanc</h4>
+
+                    <p style="font-weight:bold">Business Formation</p>
+                    <p class="ui-li-aside">1pm</p>
+                    <p>Questions on Incorporating</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom" data-position="fixed">
+            <ul>
+                <li>
+                    <a href="#pageOne" data-transition="pop" data-icon="home">Home</a>
+                </li>
+                <li>
+                    <a href="#infoPage" data-transition="pop" data-icon="info">Info</a>
+                </li>
+                <li>
+                    <a href="#newsStreamPage" data-transition="pop" data-icon="info" class="ui-btn-active ui-state-persist">News Stream</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="newsStreamData" data-role="page">
+    <header data-role="header" data-theme="b">
+        <h1>MIU Term:1303</h1>
+
+    </header>
+    <div data-role="content">
+        <h4 style="font-weight:bold">Client Data:</h4>
+
+        <p>Name: Clyde Parker</p>
+        <p>E-mail:
+            <a href="#">Clyde@ParkerInc.com</a>
+        </p>
+        <p>Phone Number:
+            <a href="#">243-123-4545</a>
+        </p>
+        <p>Client Status: New Client</p>
+        <p>Case Type: Business Formation</p>
+        <p>Consultation Date: 2013-03-15</p>
+        <p>Method of Payment: TravelersCheck</p>
+        <p>Client Comments: Trademark and Partnership questions.</p>
+        <p>
+            <a href="#newsStreamPage" data-transition="pop">Return To News Stream</a>
+        </p>
+    </div>
+    <div data-role="footer" data-theme="b" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<div id="newsNextPage" data-role="page">
+    <header data-role="header">
+        <h1>MIU Term:1303</h1>
+
+    </header>
+    <div data-role="content">
+        <p>Place Holder</p>
+        <p>
+            <a href="#newsStreamPage" data-transition="pop">Return To News Stream.</a>
+        </p>
+    </div>
+    <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+</div>
+<!--Converting Dialogs to pages in next phase of design-->
+<!--div id="newsStreamPageData" data-role="page">
+<header data-role="header" data-theme="b">
+<div class="cta-container">
+<a href="#addItem" data-transition="pop" data-ajax="false">
+<img style="margin:10px auto;display:block" src="img/logo1.png" alt="Alt Text" title="Client Manager v2.0"  width="180" height="160"/>
+</a>
+</div>
+</header>
+<div data-role="content">
+<p></p>
+<div data-role="collapsible-set">
+<div data-role="collapsible" data-collapsed="false">
+<h4>About the Design & Development Team</h4>
+<p>I'm the content in section 1.</p>
+</div>
+<div data-role="collapsible">
+<h4>Credits</h4>
+<p>I'm the content in section 1.</p>
+</div>
+<div data-role="collapsible">
+<h4>Bronze App Details</h4>
+<p>I'm the content in section 1.</p>
+<ul data-role="listview">
+    <li><a href="#">Bronze App</a></li>
+</ul>
+</div>
+<div data-role="collapsible">
+<h4>GitHub Repository & gh-pages</h4>
+<p>I'm the content in section 3.</p>
+<ul data-role="listview">
+    <li><a href="#">GitHub Repo</a></li>
+    <li><a href="#">Gold gh-pages</a></li>
+    <li><a href="#">Bronze gh-pages</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div data-role="footer">
+<div data-role="navbar" data-iconpos="bottom">
+<ul>
+<li><a href="#pageOne" data-transition="pop" data-icon="home">Home</a></li>
+<li><a href="#infoPage" data-transition="pop" data-icon="info" class="ui-btn-active ui-state-persist">Info</a></li>
+<li><a href="#newsStreamPage" data-transition="pop" data-icon="info">News Stream</a></li>
+</ul>
+</div>
+</div>
+</div-->
+<div data-role="page" id="addItem">
+    <header data-role="header" data-theme="b">
+        <div class="cta-container">
+            <a href="#addItem" data-transition="pop" data-ajax="false"></a>
+                <img style="margin:10px auto;display:block" src="img/logo2.png" alt="Alt Text" title="Client Manager v2.0" width="180" height="160" />
+
+            <a href="#pageOne" data-role="button" data-theme="a" data-icon="arrow-l" data-iconpos="left" data-inline="true">Home</a>
+        </div>
+        <div data-role="content">
+            <form action="" id="clientManagerForm">
+                <ul data-role="listview" data-theme="d" data-inset="true" data-filter="false">
+                    <li data-role="list-divider" data-theme="a">* = Required Fields</li>
+                    <li>
+                        <label for="firstName">* First Name:</label>
+                        <input type="text" data-mini="true" name="clientName" id="firstName" class="required" value="" placeholder="Enter Your First Name">
+                        <label for="lastName">* Last Name:</label>
+                        <input type="text" data-mini="true" name="clientName" id="lastName" class="required" value="" placeholder="Enter Your Last Name">
+                        <label for="email">* E-mail:</label>
+                        <input type="email" data-mini="true" data-clear-btn="true" name="clientName" id="email" class="required email" value="" placeholder="Example: name@address.com">
+                        <div style="color:grey;font-size:0.7em;text-align:left">Your E-mail address will not be sold, shared or exchanged with any 3rd parties.</div>
+                        <label for="phoneNumber">* Tel:</label>
+                        <input type="tel" data-mini="true" data-clear-btn="true" name="clientName" id="phoneNumber" class="required phoneUS" value="" placeholder="Example: xxx-xxx-xxxx">
+                        <div style="color:grey;font-size:0.7em;text-align:left">Tel# does not require parentheses or dashes.</div>
+                    </li>
+                    <li>
+                        <fieldset data-role="controlgroup" data-theme="e" data-type="horizontal" data-mini="true">
+                            <legend>Select Client Type:</legend>
+                            <input type="radio" data-theme="d" name="client" id="NewClient" checked value="NewClient" class="">
+                            <label for="NewClient">New Client</label>
+                            <input type="radio" data-theme="d" name="client" id="ExistingClient" value="ExistingClient">
+                            <label for="ExistingClient">Existing Client</label>
+                        </fieldset>
+                    </li>
+                    <li>
+                        <label for="select-choice-8" class="select">Choose Case Type:</label>
+                        <select name="caseType" id="select-choice-8" multiple="multiple" data-theme="d" data-mini="true" data-native-menu="false" data-icon="grid" data-iconpos="left" class="">
+                            <option>Choose Case Type Options:</option>
+                            <optgroup label="Case Types:">
+                                <option value="immigrationLaw">Immigration Law</option>
+                                <option value="businessFormation">Business Formation</option>
+                                <option value="documentDrafting">Document Drafting</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="firstConsult">Schedule Initial Consultation:</label>
+                        <input type="datetime-local" data-clear-btn="true" name="datetime-4" id="firstConsult" value="" class="">
+                    </li>
+                    <li>
+                        <label for="payment" class="select">Select Method of Payment:</label>
+                        <select name="payCheck" id="payment" data-native-menu="false" data-theme="d" data-mini="true" class="">
+                                <option>Payment Options:</option>
+                                <option value="Cash">Cash</option>
+                                <option value="Visa">Visa</option>
+                                <option value="AmericanExpress">American Express</option>
+                                <option value="TravelersCheck">Travelers Check</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="clientFeedback">Feedback Appreciated..</label>
+                        <textarea cols="40" rows="8" name="clientDetails" id="clientFeedback" placeholder="Provide Details.."></textarea>
+                        <label for="ratingApp">Rate App:</label>
+                        <input type="range" name="rating" data-theme="d" id="ratingApp" min="0" max="10" value="10">
+                    </li>
+                </ul>
+                <input type="submit" id="" value="Submit Client Form" data-shadow="true" data-mini="false" data-theme="e">
+                <br>
+                <div style="text-align: right"><a href="#errorDialog" style="color: darkgrey">Reset Client Form</a></div>
+                <a href="#errorDialog" id="clientManagerErrors" data-transition="pop" data-rel="dialog">Display Errors</a>
+
+            </form>
+        </div>
+    </header>
+</div>
+
+
+    <div id="errorDialog" data-role="dialog">
+        <div data-role="header">
+            <h1>Test Page.</h1>
+        </div>
+        <div data-role="content">
+            <ul>
+
+            </ul>
+            <p>
+                <a href="#addItem" data-transition="pop">Return To Form.
+                    <input type="reset">
+                </a>
+            </p>
+        </div>
+        <div data-role="footer" class="ui-bar">Temporary Dialog For Testing Purpose.</div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/libs/additional-methods.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+

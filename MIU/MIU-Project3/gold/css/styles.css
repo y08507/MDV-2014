@@ -1,0 +1,14 @@
+
+
+label.error {
+            display: block;
+            float: left;
+            color: red;
+            padding-top: .5em;
+            vertical-align: text-bottom;
+
+}
+
+#clientManagerErrors{
+                    display: none;
+}
