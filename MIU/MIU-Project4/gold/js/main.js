@@ -52,7 +52,7 @@ $('#addItem').on('pageinit', function () {
         submitHandler: function() {
             var data = myForm.serializeArray();
             storeData(this.key);
-            location.reload();
+            console.log(data);
         }
 
 
