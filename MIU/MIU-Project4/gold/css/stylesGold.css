@@ -15,7 +15,7 @@ label.error {
 }
 #pageOne {
     text-align: center;
-    background: url("../../bronze/css/images/project4Background.png");
+    background: url("../img/backgroundMIUProject4.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -42,7 +42,7 @@ display: none;
 }
 #fNamePage {
     text-align: center;
-    background: url("../../bronze/css/images/project4Background.png");
+    background: url("../img/backgroundMIUProject4.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -63,14 +63,14 @@ display: none;
 }
 #clientData {
     text-align: center;
-    background: url("../../bronze/css/images/project4Background.png");
+    background: url("../img/backgroundMIUProject4.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
 }
 #infoPage {
     text-align: center;
-    background: url("../../bronze/css/images/project4Background.png");
+    background: url("../img/backgroundMIUProject4.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -85,7 +85,7 @@ display: none;
 }
 #newsStreamPage {
     text-align: center;
-    background: url("../../bronze/css/images/project4Background.png");
+    background: url("../img/backgroundMIUProject4.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -101,10 +101,17 @@ display: none;
 }
 #addItem {
     text-align: center;
-    background: url("../../bronze/css/images/project4Background.png");
+    background: url("../img/backgroundMIUProject4.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
+#addItem img {
+    width: 40%;
+    max-width: 200px;
+}
+#clientData img {
+    width: 40%;
+    max-width: 200px;
+}
 
 
