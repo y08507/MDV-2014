@@ -48,7 +48,7 @@ display: none;
 
 }
 #fNamePage img {
-    width: 60%;
+    width: 40%;
     max-width: 200px;
 }
 #fNamePage .ui-listview {
@@ -76,7 +76,7 @@ display: none;
 
 }
 #infoPage img {
-    width: 60%;
+    width: 40%;
     max-width: 200px;
 }
 #infoPage .ui-collapsible {
@@ -91,6 +91,9 @@ display: none;
 }
 #newsStreamPage img {
     max-width: 200px;
+}
+#newsStreamPage .logo {
+    width: 40%;
 }
 #newsStreamPage .ui-listview {
     width: 90%;
