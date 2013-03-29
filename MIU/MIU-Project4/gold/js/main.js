@@ -62,14 +62,13 @@ $('#addItem').on('pageinit', function () {
 
     });
     $('#errorDialog1').click(function (){
-        var ask = confirm("Are you sure you want to Reset Client Form?");
-        if(ask){
-
-            alert("Client Form Reset Complete!");
+      //var ask = confirm("Are you sure you want to Reset Client Form?");
+      //if(ask){
+          //alert("Client Form Reset Complete!");
             location.reload();
-        }else{
-            alert("Client Form Reset Process Canceled.")
-        }
+          //}else{
+          //alert("Client Form Reset Process Canceled.")
+          //}
     });
     /* Working on advancing code and preparation for next course
    $('#clientManagerErrors1').click(function (){
